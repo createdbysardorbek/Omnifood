@@ -1,0 +1,138 @@
+.meals {
+  width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  background-color: white;
+}
+.meals .title {
+  margin-bottom: 96px;
+}
+.meals .title p,
+.meals .title h3 {
+  text-align: center;
+}
+.meals .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding-top: 96px;
+  margin-bottom: 48px;
+}
+.meals .cards .meal__card {
+  width: 336px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.08);
+  border-radius: 11px;
+  background-color: white;
+}
+.meals .cards .meal__card .card__img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.meals .cards .meal__card .card__img img {
+  width: 100%;
+}
+.meals .cards .meal__card .tag {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 48px;
+  margin-bottom: 14px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.meals .cards .meal__card .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.meals .cards .meal__card .tags .tag:last-of-type {
+  margin-left: 4px;
+}
+.meals .cards .meal__card h6 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 48px;
+  color: #333333;
+  margin-bottom: 35px;
+}
+.meals .cards .meal__card .list-items {
+  margin-left: 48px;
+}
+.meals .cards .meal__card .list-items ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.meals .cards .meal__card .list-items ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.meals .cards .meal__card .list-items ul li span {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  color: #555555;
+  margin-left: 22px;
+}
+.meals .cards .text {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.meals .cards .text h5 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 38px;
+}
+.meals .cards .text ul {
+  list-style: none;
+}
+.meals .cards .text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.meals .cards .text ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.meals .cards .text ul li span {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #555555;
+}
+.meals .cards .text ul li svg {
+  font-size: 30px;
+}
+.meals .link {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+.meals .link a {
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 2px;
+  color: #E67E22;
+  border-bottom: 2px solid #E67E22;
+}/*# sourceMappingURL=meals.css.map */

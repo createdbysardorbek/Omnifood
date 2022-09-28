@@ -1,0 +1,187 @@
+.submit__form {
+    width: 100%;
+    height: 474px;
+    padding-top: 46px;
+    margin-bottom: 128px;
+
+    .submit__content {
+        display: flex;
+        width: 1136px;
+        overflow: hidden;
+        background: linear-gradient(105.93deg, #EB984E 0%, #E67E22 100%);
+        box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        margin: 0 auto;
+
+        .submit__img {
+            img {
+                display: block;
+                width: 376px;
+                height: 100%;
+                border-radius: 0px 11px 11px 0px;
+            }
+        }
+
+        form {
+            width: 1136px - 376px;
+            padding: 64px;
+            padding-top: 48px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 44px;
+                color: #45260A;
+                margin-bottom: 32px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 180%;
+                color: #45260A;
+                margin-bottom: 48px;
+            }
+
+            .inputs {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                div {
+
+                    hover:focus {
+                        box-shadow: 2px 2px 5px 8px red;
+                    }
+
+                    label {
+                        display: block;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #45260A;
+                        margin-bottom: 12px;
+                    }
+
+                    input {
+                        width: 300px;
+                        padding: 14px;
+                        background: #FDF2E9;
+                        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+                        border-radius: 9px;
+                        box-sizing: border-box;
+                        font-weight: 500;
+                        font-size: 18px;
+                        border: 0;
+                        outline: 0;
+                        color: #D9D9D9;
+                        margin-bottom: 24px;
+                    }
+
+                    select {
+                        width: 300px;
+                        padding: 14px;
+                        background: #FDF2E9;
+                        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+                        border-radius: 9px;
+                        border: 0;
+                        outline: 0;
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #000000;
+                    }
+                }
+
+                .btn {
+                    align-self: flex-end;
+
+                    button {
+
+                        width: 300px;
+                        padding: 14px;
+                        background: #45260A;
+                        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+                        border-radius: 9px;
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #D9D9D9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .submit__form {
+        width: 100%;
+        margin-bottom: 1000px;
+
+        .submit__content {
+            display: block;
+            width: 100%;
+
+            .submit__img {
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0px 0px 11px 0px;
+                }
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                padding: 0;
+                text-align: center;
+
+                h3 {
+                    font-size: 28px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 28px;
+                }
+
+                .inputs {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+
+                    div {
+
+                        label {
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+
+                        input {
+                            font-size: 14px;
+                            margin-bottom: 24px;
+                        }
+
+                        select {
+                            padding: 14px;
+                            font-size: 14px;
+                            margin-bottom: 24px;
+                        }
+                    }
+
+                    .btn {
+                        align-self: center;
+
+                        button {
+                            padding: 14px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

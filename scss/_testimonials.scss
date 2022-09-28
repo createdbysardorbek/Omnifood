@@ -1,0 +1,136 @@
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .feedback {
+        width: 600px;
+        margin: 96px;
+
+        .title {
+            margin-bottom: 96px;
+        }
+
+        .testimonial__feedback {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 48px;
+
+            figure {
+                width: 260px;
+
+
+                picture {
+                    img {
+                        width: 64px;
+                        aspect-ratio: 1/1;
+                    }
+                }
+
+                blockquote {
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #555555;
+                    margin-bottom: 16px;
+                }
+
+                code {
+                    font-family: 'Rubik';
+                    font-size: 18px;
+                    color: #6F6F6F;
+
+                }
+            }
+        }
+    }
+
+    .meal__img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 618px;
+        margin: 78px 0;
+        gap: 16px;
+
+        img {
+            display: block;
+            width: 195px;
+            aspect-ratio: 1/1;
+            transition: .3s;
+
+            &:hover {
+                transform: scale(.95);
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .feedback {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+            margin-top: 0;
+
+            .title {
+                margin-bottom: 96px;
+                text-align: center;
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 24px;
+                }
+            }
+
+            .testimonial__feedback {
+                max-width: 618px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: -60px;
+                gap: 24px;
+
+                figure {
+                    width: 260px;
+
+
+                    picture {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    blockquote {
+                        text-align: center;
+                        font-size: 16px;
+                    }
+
+                    code {
+                        font-family: 'Rubik';
+                        font-size: 14px;
+                        color: #6F6F6F;
+
+                    }
+                }
+            }
+
+            .meal__img {
+                width: 618px;
+                display: flex;
+                align-self: center;
+            }
+        }
+    }
+}
